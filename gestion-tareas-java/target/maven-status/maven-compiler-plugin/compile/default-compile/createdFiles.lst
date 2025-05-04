@@ -1,0 +1,7 @@
+com\uady\gestiontareas\Main.class
+com\uady\gestiontareas\model\Priority.class
+com\uady\gestiontareas\model\Status.class
+com\uady\gestiontareas\controller\TaskController.class
+com\uady\gestiontareas\model\Task.class
+com\uady\gestiontareas\view\ConsoleView.class
+com\uady\gestiontareas\App.class

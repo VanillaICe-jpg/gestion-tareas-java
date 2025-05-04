@@ -18,8 +18,17 @@ public class Task {
         this.dueDate = dueDate;
         this.priority = priority;
         this.status = status;
+
     }
 
+    public LocalDate getDueDate() {
+        return dueDate;
+
+    }
+
+    public Priority getPriority() {
+        return priority;
+    }
     // Getters and setters (you can generate them in your IDE if needed)
 
     @Override
