@@ -50,4 +50,31 @@ public class TaskFileManager {
             e.printStackTrace();
         }
     }
+
+    // Nueva sobrecarga para cargar desde ruta personalizada
+    public static List<Task> loadTasks(String path) {
+        try {
+            if (!Files.exists(Paths.get(path))) {
+                return List.of(); // Si no existe, retorna vacío
+            }
+
+            FileReader reader = new FileReader(path);
+            Type listType = new TypeToken<List<Task>>() {
+            }.getType();
+            return gson.fromJson(reader, listType);
+        } catch (IOException e) {
+            e.printStackTrace();
+            return List.of();
+        }
+    }
+
+    // Nueva sobrecarga para guardar en ruta personalizada
+    public static void saveTasks(List<Task> tasks, String path) {
+        try (FileWriter writer = new FileWriter(path)) {
+            gson.toJson(tasks, writer);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
 }

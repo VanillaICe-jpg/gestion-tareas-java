@@ -1,10 +1,18 @@
 [
   {
-    "id": "775f07ac-7d6e-48f9-962e-5f5eafd82af9",
-    "title": "si1",
-    "description": "si1",
-    "dueDate": "2025-05-22",
-    "priority": "MEDIUM",
+    "id": "955fe85f-74be-4e20-9992-629315a84c6f",
+    "title": "Tarea 1",
+    "description": "Descripción 1",
+    "dueDate": "2025-05-04",
+    "priority": "HIGH",
     "status": "PENDING"
+  },
+  {
+    "id": "86e4cd7a-febd-459b-9814-b3a7ff3df1b6",
+    "title": "Tarea 2",
+    "description": "Descripción 2",
+    "dueDate": "2025-05-05",
+    "priority": "LOW",
+    "status": "COMPLETED"
   }
 ]
