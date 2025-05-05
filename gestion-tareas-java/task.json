@@ -1,6 +1,6 @@
 [
   {
-    "id": "955fe85f-74be-4e20-9992-629315a84c6f",
+    "id": "4aafd8d8-a55b-4c14-8be4-b5d4a92735de",
     "title": "Tarea 1",
     "description": "Descripción 1",
     "dueDate": "2025-05-04",
@@ -8,11 +8,19 @@
     "status": "PENDING"
   },
   {
-    "id": "86e4cd7a-febd-459b-9814-b3a7ff3df1b6",
+    "id": "564e65ac-5cbc-4f8c-a5f2-8fe7370439e3",
     "title": "Tarea 2",
     "description": "Descripción 2",
     "dueDate": "2025-05-05",
     "priority": "LOW",
     "status": "COMPLETED"
+  },
+  {
+    "id": "1f3da105-5922-4984-9123-1102fe50d6d5",
+    "title": "dasd",
+    "description": "dada",
+    "dueDate": "2025-05-04",
+    "priority": "MEDIUM",
+    "status": "PENDING"
   }
 ]

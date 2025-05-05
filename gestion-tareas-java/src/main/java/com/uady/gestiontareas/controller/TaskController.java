@@ -10,7 +10,6 @@ import java.util.Comparator;
 import java.util.ArrayList;
 
 public class TaskController {
-    private static final String FILE_PATH = "tasks.json";
     private List<Task> tasks;
 
     public TaskController() {
@@ -93,7 +92,7 @@ public class TaskController {
 
     // Método para obtener tareas ordenadas por prioridad
     public List<Task> getTasksSortedByPriority() {
-        tasks.sort(Comparator.comparing(Task::getPriority)); // Ordena las tareas por prioridad
+        tasks.sort(Comparator.comparing(Task::getPriority));
         return tasks;
     }
 

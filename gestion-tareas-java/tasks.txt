@@ -1,5 +1,0 @@
-d79af3e0-beba-4ba7-888f-5a6ec364aa1b;tarea 1;descripcion 1;2025-05-04;MEDIUM;PENDING
-b2459031-be93-4c8f-8d90-4109117eed21;Proyecto;notan;2025-05-05;LOW;IN_PROGRESS
-8f1e22de-625f-4230-bace-e51028e98042;ExamenCI;examen importante;2025-05-07;HIGH;IN_PROGRESS
-6097d125-a52f-443a-8dec-e4b76ace4309;examen2;bueno;2025-05-16;LOW;IN_PROGRESS
-657ff2b4-54a8-406f-8949-9d511b537af7;ExamenCI;examen importante;2025-05-21;MEDIUM;PENDING

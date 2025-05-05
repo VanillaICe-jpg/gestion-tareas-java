@@ -1,7 +1,6 @@
 package com.uady.gestiontareas.view;
 
 import com.uady.gestiontareas.controller.TaskController;
-import com.uady.gestiontareas.view.TaskViewFX;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.stage.Stage;

@@ -6,6 +6,5 @@ com\uady\gestiontareas\controller\TaskController.class
 com\uady\gestiontareas\model\Task.class
 com\uady\gestiontareas\model\TaskFileManager$2.class
 com\uady\gestiontareas\model\TaskFileManager.class
-com\uady\gestiontareas\view\ConsoleView.class
 com\uady\gestiontareas\view\TaskApp.class
 com\uady\gestiontareas\model\TaskFileManager$1.class

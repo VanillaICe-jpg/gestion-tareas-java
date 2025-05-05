@@ -1,0 +1,37 @@
+# ✅ Checklist de Prácticas de Construcción de Software
+
+## ✔️ Paradigma y Diseño
+- [x] Uso del paradigma orientado a objetos
+- [x] Aplicación del patrón de diseño MVC
+- [x] Uso de clases, encapsulamiento y enumeraciones
+
+## ✔️ Versionado y Gestión de Código
+- [x] Uso de Git para control de versiones
+- [x] Uso de ramas y GitFlow para desarrollo incremental
+- [x] Commits separados por funcionalidad (CRUD, filtrado, JSON, interfaz, pruebas)
+
+## ✔️ Funcionalidad y Requisitos
+- [x] CRUD completo de tareas
+- [x] Filtros por estado, prioridad y rango de fechas
+- [x] Búsqueda por palabra clave en título o descripción
+- [x] Validaciones de campos (título no vacío, fecha válida)
+
+## ✔️ Persistencia
+- [x] Persistencia en archivo JSON usando Jackson
+
+## ✔️ Pruebas y Calidad
+- [x] Pruebas unitarias con JUnit 5
+- [x] Uso de Mockito para pruebas con dependencias (si aplica)
+- [x] Cobertura de pruebas mayor al 80%
+- [x] Código documentado con comentarios
+- [x] Revisión de calidad de código con herramienta (ej: SonarLint)
+
+## ✔️ Interfaz de Usuario
+- [x] Interfaz de consola funcional
+- [ ] Interfaz gráfica JavaFX (en desarrollo / completada si reemplazó la consola)
+
+## ✔️ Documentación y Entrega
+- [x] UML incluido
+- [x] README con instrucciones
+- [x] Código estructurado en paquetes
+- [x] Proyecto ejecutable con Maven
