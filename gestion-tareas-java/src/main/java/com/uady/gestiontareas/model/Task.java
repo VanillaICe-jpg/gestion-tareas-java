@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import java.util.UUID;
 
 public class Task {
-    private final String id;
+    private String id;
     private String title;
     private String description;
     private LocalDate dueDate;
@@ -18,21 +18,63 @@ public class Task {
         this.dueDate = dueDate;
         this.priority = priority;
         this.status = status;
+    }
 
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public LocalDate getDueDate() {
         return dueDate;
+    }
 
+    public void setDueDate(LocalDate dueDate) {
+        this.dueDate = dueDate;
     }
 
     public Priority getPriority() {
         return priority;
     }
-    // Getters and setters (you can generate them in your IDE if needed)
+
+    public void setPriority(Priority priority) {
+        this.priority = priority;
+    }
+
+    public Status getStatus() {
+        return status;
+    }
+
+    public void setStatus(Status status) {
+        this.status = status;
+    }
 
     @Override
     public String toString() {
-        return String.format("%s | %s | %s | %s | %s", id, title, dueDate, priority, status);
+        return "Task ID: " + id + "\n" +
+                "Title: " + title + "\n" +
+                "Description: " + description + "\n" +
+                "Due Date: " + dueDate + "\n" +
+                "Priority: " + priority + "\n" +
+                "Status: " + status + "\n";
     }
 }
